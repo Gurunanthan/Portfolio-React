@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello iam Gurunanthan <span id="auto-type"></span></h1>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed("#auto-type",{
+        strings: ["Startups", "Business", "Agencies"],
+                // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+                stringsElement: null,
+                typeSpeed: 100,
+                startDelay: 500,
+                backSpeed: 100,
+                backDelay: 500,
+                loop: true,
+                showCursor: true,
+                cursorChar: "|",
+                attr: null,
+                contentType: 'html',
+                callback: function() {},
+                preStringTyped: function() {},
+                onStringTyped: function() {},
+                resetCallback: function() {}
+    })
+</script>
+</html>
